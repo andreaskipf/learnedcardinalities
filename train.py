@@ -53,7 +53,7 @@ def predict(model, data_loader, cuda):
         for i in range(outputs.data.shape[0]):
             preds.append(outputs.data[i])
 
-        return preds, t_total
+    return preds, t_total
 
 
 def print_qerror(preds_unnorm, labels_unnorm):
