@@ -1,7 +1,7 @@
 Learned Cardinalities in PyTorch
 ====
 
-PyTorch implementation of multi-set convolutional networks (MSCNs) to estimate the result sizes of SQL queries [1].
+PyTorch implementation of multi-set convolutional networks (MSCNs) to estimate the result sizes of SQL queries [1, 2].
 
 ## Requirements
 
@@ -27,6 +27,8 @@ To reproduce the results in [1] use:
 ## References
 
 [1] [Kipf et al., Learned Cardinalities: Estimating Correlated Joins with Deep Learning, 2018](https://arxiv.org/abs/1809.00677)
+
+[2] [Kipf et al., Estimating Cardinalities with Deep Sketches, 2019](https://arxiv.org/abs/1904.08223)
 
 ## Cite
 
